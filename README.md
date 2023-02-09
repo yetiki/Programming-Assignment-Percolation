@@ -85,7 +85,6 @@ To perform a series of computational experiments, a data type called Percolation
 
        // test client (see below)
        public static void main(String[] args)
-
     }
 
 An IllegalArgumentException is thrown in the constructor if either $n$ ≤ 0 or trials ≤ 0.
