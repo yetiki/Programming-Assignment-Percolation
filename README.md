@@ -89,4 +89,4 @@ To perform a series of computational experiments, a data type called Percolation
 
 An IllegalArgumentException is thrown in the constructor if either $n$ ≤ 0 or trials ≤ 0.
 
-A main() method is included that takes two command-line arguments $n$ and $T$, performs $T$ independent computational experiments (discussed above) on an $n$ by $n$  grid, and prints the sample mean, sample standard deviation, and the 95% confidence interval for the percolation threshold. StdRandom is used to generate random numbers; StdStats is used to compute the sample mean and sample standard deviation.
+A main() method is included in PercolationStats that takes two command-line arguments $n$ and $T$, performs $T$ independent computational experiments (discussed above) on an $n$ by $n$  grid, and prints the sample mean, sample standard deviation, and the 95% confidence interval for the percolation threshold. StdRandom is used to generate random numbers; StdStats is used to compute the sample mean and sample standard deviation.
