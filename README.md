@@ -37,9 +37,6 @@ This computer program estimates $p*$ with the following API:
 
         // does the system percolate?
         public boolean percolates()
-
-        // test client (optional)
-        public static void main(String[] args)
     }
 
 The Percolation data type is implemented using the quick find algorithm in QuickFindUF
