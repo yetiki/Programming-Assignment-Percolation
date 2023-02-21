@@ -52,13 +52,13 @@ public class Percolation {
         }
         if (nodeIndex % n != 0 && open[nodeIndex + 1]) {
             network.union(nodeIndex, nodeIndex + 1);
-         }
-         if (nodeIndex < (n*(n - 1) + 1) && open[nodeIndex + n]) {
+        }
+        if (nodeIndex < (n*(n - 1) + 1) && open[nodeIndex + n]) {
             network.union(nodeIndex, nodeIndex + n);
-         }
-         if (nodeIndex % n != 1 && open[nodeIndex - 1]) {
+        }
+        if (nodeIndex % n != 1 && open[nodeIndex - 1]) {
             network.union(nodeIndex, nodeIndex - 1);
-         }
+        }
     }
 
     // is the site (row, col) open?
