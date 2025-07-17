@@ -1,5 +1,7 @@
 # ALGORITHMS PART I | Princeton University <br /> Programming Assignment: Percolation
 
+A programming assignment submitted as part of the course [Algorithms Part I](https://www.coursera.org/learn/algorithms-part1) from Princeton University
+
 ## Packages
 
 This program uses the classes: StdRandom, StdStats, and WeightedQuickUnionUF from algs4.jar provided by Princeton University from their Coursera Algorithms Part I course.
